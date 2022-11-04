@@ -1,0 +1,114 @@
+button{
+  height: 50px;
+}
+
+  .sidebar-open{
+    width: 250px;
+    display: none;
+  }
+
+  .sidebar-closed{
+    width: 78px;
+    display: flex;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .sidebar-wrapper{
+    position: relative;
+    height: 100vh;
+    background-color: var(--green);
+    flex-direction: column;
+  }
+
+  .main{
+    height: 100vh;
+    width: 100%;
+    padding-top: 18px;
+    padding-left: 20px;
+    font-weight: 500;
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+  }
+
+  .icons{
+    width: 24px;
+    height: 24px;
+    display: block;
+    justify-content: center;
+    color: var(--text-color);
+    cursor: pointer;
+  }
+  .icon-menu{
+    margin-top: 26px;
+  }
+  .icon-search{
+    background-color: var(--light-grey);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  }
+
+  .icon-search:hover{
+    background-color: var(--medium-grey);
+
+  }
+  
+  .icon-logout{
+    position: absolute;
+    background-color: var(--light-green);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    bottom: 0;
+  }
+
+  .icon-menu-op{
+    position: relative;
+    margin-top: 26px;
+    margin-right: 14px;
+  }
+
+  .icon-search-op{
+    background-color: var(--light-grey);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  }
+
+  .op{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    cursor: pointer;
+  } 
+
+  .menu{
+    padding-left: 23px;
+    padding-right: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+    
+  }
+
+  .logout-op{
+    justify-content: flex-start;
+    padding-left: 23px;
+    gap: 16px;
+  }

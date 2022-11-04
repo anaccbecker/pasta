@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <script src="js/session.js"></script>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/play.css">
+    <link rel="stylesheet" href="styles/play2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar-wrapper sidebar-closed">
+        <img class="icons icon-menu" id="button-open" src="public/menu.svg" alt="">
+        <div class=" icon-search">
+            <img class="icons" src="public/search.svg" alt="">
+        </div>
+        <img class="icons home" src="public/grid.svg" alt="">
+        <img class="icons" src="public/user.svg" alt="">
+        <img class="icons" src="public/settings.svg" alt="">
+        <div class="icon-logout" id="logout-button">
+            <img class="icons" src="public/log-out.svg" alt="">
+        </div>
+    </div>
+    <div class="sidebar-wrapper sidebar-open" >
+        <div class="menu">
+            <img class="icons icon-menu-op" id="button-closed" src="/public/menu.svg" alt="">
+            <div class=" icon-search-op op">
+                <img class="icons" src="public/search.svg" alt="">
+                <span>Pesquisar</span>   
+            </div>
+            <div class="op home">
+                <img class="icons" src="public/grid.svg" alt="">
+                <span>Home</span>
+            </div>
+            <div class="op">
+                <img class="icons" src="public/user.svg" alt="">
+                <span>Usuário</span>
+            </div>
+            <div class="op">
+                <img class="icons" src="public/settings.svg" alt="">
+                <span>Configurações</span>
+            </div>
+            <div id="user-card" >
+                <p id="user-card-username"></p>
+                <p id="user-card-email"></p>
+            </div>
+        </div>
+        <div class="icon-logout logout-op" id="logout-button">
+            <img class="icons" src="public/log-out.svg" alt="">
+            <span>Log out</span>
+        </div>
+    </div>
+    <div class="main">
+        <h1 id="saudacao"></h1>
+        <p id="system-time">Última atualização: </p>
+        <br><br>
+        <div class="gallery">
+            <img src="https://picsum.photos/id/174/400/400" alt="teste1">
+            <img src="https://picsum.photos/id/188/400/400" alt="teste2">
+            <img src="https://picsum.photos/id/211/400/400" alt="teste3">
+            <img src="https://picsum.photos/id/28/400/400" alt="teste4">
+        </div>
+    </div> 
+    <script src="js/home.js"></script>
+    <script src="js/videos.js"></script>
+</body>
+</html>
