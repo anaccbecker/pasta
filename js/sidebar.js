@@ -68,3 +68,12 @@ buttonVideos[1].onclick = function(){
     location.href='/videos.html'
 }
 
+// Redirecionamento design
+
+const buttonDesign = document.querySelectorAll('.design')
+buttonDesign[0].onclick = function(){
+    location.href='/play.html'
+}
+buttonDesign[1].onclick = function(){
+    location.href='/play.html'
+}
