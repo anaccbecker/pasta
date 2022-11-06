@@ -77,3 +77,13 @@ buttonDesign[0].onclick = function(){
 buttonDesign[1].onclick = function(){
     location.href='/play.html'
 }
+
+// Redirecionamento home
+
+const buttonHome = document.querySelectorAll('.home')
+buttonHome[0].onclick = function(){
+    location.href='/home.html'
+}
+buttonHome[1].onclick = function(){
+    location.href='/home.html'
+}

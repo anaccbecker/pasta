@@ -67,3 +67,13 @@ buttonVideos[0].onclick = function(){
 buttonVideos[1].onclick = function(){
     location.href='/videos.html'
 }
+
+// Redirecionamento home
+
+const buttonHome = document.querySelectorAll('.home')
+buttonHome[0].onclick = function(){
+    location.href='/home.html'
+}
+buttonHome[1].onclick = function(){
+    location.href='/home.html'
+}
