@@ -58,14 +58,13 @@ buttonLogout.onclick = function () {
     location.href='/auth.html'
 }
 
-// Redirecionamento vídeos
-
-const buttonVideos = document.querySelectorAll('.videos')
-buttonVideos[0].onclick = function(){
-    location.href='/videos.html'
+const buttonHome = document.querySelectorAll('.home')
+console.log(buttonHome)
+buttonHome[0].onclick = function(){
+    location.href='../home.html'
 }
-buttonVideos[1].onclick = function(){
-    location.href='/videos.html'
+buttonHome[1].onclick = function(){
+    location.href='../home.html'
 }
 
 // Redirecionamento design
@@ -78,6 +77,16 @@ buttonDesign[1].onclick = function(){
     location.href='/play.html'
 }
 
+// Redirecionamento vídeos
+
+const buttonVideos = document.querySelectorAll('.videos')
+buttonVideos[0].onclick = function(){
+    location.href='/videos.html'
+}
+buttonVideos[1].onclick = function(){
+    location.href='/videos.html'
+}
+
 // Redirecionamento home
 
 const buttonHome = document.querySelectorAll('.home')
@@ -87,6 +96,7 @@ buttonHome[0].onclick = function(){
 buttonHome[1].onclick = function(){
     location.href='/home.html'
 }
+
 
 // Redirecionamento fav
 

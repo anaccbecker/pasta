@@ -50,7 +50,13 @@ var listQuotes = [
     '"There are people less qualified than you doing things you dream of doing because they have the audacity to accept themselves, the courage to fail, and the belief that success is possible for them" - Jennifer Diaz',
     `"I can't compare my learning curve with to someone else's highlight reel"`,
     '"This is what courage looks like"',
-    '"I did the best I could with the information I had at the time. I can forgive my past self and grow into a wiser version of myself"'
+    '"I did the best I could with the information I had at the time. I can forgive my past self and grow into a wiser version of myself"',
+    `"You've proven to yourself that you're strong enough to hold on to what you know. Now be strong enough to let go."`,
+    `"Just because things could've been different doesn't mean they would've been better."`,
+    `"A inteligência de uma pessoa é medida pela sua capacidade de suportar incertezas." - Immanuel Kant`,
+    '"Sempre terá alguém pra duvidar de você. Se essa pessoa não for você, tudo bem"',
+    '"Pessoas boas fazem outras pessoas se sentirem muito boas. Seja esse tipo de pessoa!"',
+    '"Seja filtro, não esponja"'
 ]
 var randomNumber = parseInt(Math.random()*listQuotes.length)
 var quote = document.getElementById("quote")
