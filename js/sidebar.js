@@ -61,6 +61,7 @@ buttonLogout.onclick = function () {
 // Redirecionamento vídeos
 
 const buttonVideos = document.querySelectorAll('.videos')
+console.log(document.querySelectorAll('.videos'));
 buttonVideos[0].onclick = function(){
     location.href='/videos.html'
 }

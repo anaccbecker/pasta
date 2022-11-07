@@ -1,5 +1,11 @@
+
+
 .container{
-    background-color: var(--light-grey);
+    background-image: url("../public/wall.jpg");
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
     display: flex;
     align-items: center;
     justify-content: center;
