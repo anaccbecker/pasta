@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .main{
     background-image: url("../public/pizza.jpg");
     background-position: center; /* Center the image */
@@ -6,8 +6,7 @@
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-=======
->>>>>>> parent of 978fa8a (design)
+
 #system-time{
     font-size: 12px;
 }
@@ -22,22 +21,4 @@
 #pesquisa-google{
     width: 90%;
 }
-<<<<<<< HEAD
-=======
 
-/* Barra de pesquisa */
-.gsc-control-cse-pt-BR{
-    background-color: var(--light-green) !important;
-    width: 700px !important;
-    border-color: var(--light-green) !important;
-    border-radius: 12px;
-}
-
-/* Ícone da lupa */
-.gsc-search-button-v2{
-    background-color: var(--green) !important;
-    border-color: white !important;
-    border-radius: 6px !important;
-}
-
->>>>>>> parent of 978fa8a (design)

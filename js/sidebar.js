@@ -43,12 +43,10 @@ document.addEventListener('keydown', function(event){
 
 // Redirecionamento vídeos
 
-<<<<<<< HEAD
+
 const buttonVideos = document.querySelectorAll('.sobre')
 console.log(document.querySelectorAll('.sobre'));
-=======
-const buttonVideos = document.querySelectorAll('.videos')
->>>>>>> parent of 978fa8a (design)
+
 buttonVideos[0].onclick = function(){
     location.href='/sobre_nos.html'
 }
