@@ -1,4 +1,11 @@
 
+// User Card
+var UserCardUsername = document.getElementById("user-card-username")
+var UserCardEmail = document.getElementById("user-card-email")
+UserCardUsername.appendChild(document.createTextNode(localStorage.getItem("name")))
+UserCardEmail.appendChild(document.createTextNode(localStorage.getItem("email")))
+
+
 // Sidebar
 // Criando variáveis do botão
 const buttonOpen = document.getElementById('button-open')
@@ -40,30 +47,44 @@ document.addEventListener('keydown', function(event){
     }
 })
 
+// Log out
 
-// Redirecionamento vídeos
-
-<<<<<<< HEAD
-const buttonVideos = document.querySelectorAll('.sobre')
-console.log(document.querySelectorAll('.sobre'));
-=======
-const buttonVideos = document.querySelectorAll('.videos')
->>>>>>> parent of 978fa8a (design)
-buttonVideos[0].onclick = function(){
-    location.href='/sobre_nos.html'
+const buttonLogout = document.getElementById('logout-button')
+// Criando o redirecionamento
+buttonLogout.onclick = function () {
+    localStorage.removeItem("name")
+    localStorage.removeItem("email")
+    localStorage.removeItem("id")
+    location.href='/auth.html'
 }
-buttonVideos[1].onclick = function(){
-    location.href='/sobre_nos.html'
+
+const buttonHome = document.querySelectorAll('.home')
+console.log(buttonHome)
+buttonHome[0].onclick = function(){
+    location.href='../home.html'
+}
+buttonHome[1].onclick = function(){
+    location.href='../home.html'
 }
 
 // Redirecionamento design
 
-const buttonDesign = document.querySelectorAll('.pizza')
+const buttonDesign = document.querySelectorAll('.design')
 buttonDesign[0].onclick = function(){
-    location.href='/cardapio.html'
+    location.href='/play.html'
 }
 buttonDesign[1].onclick = function(){
-    location.href='/cardapio.html'
+    location.href='/play.html'
+}
+
+// Redirecionamento vídeos
+
+const buttonVideos = document.querySelectorAll('.videos')
+buttonVideos[0].onclick = function(){
+    location.href='/videos.html'
+}
+buttonVideos[1].onclick = function(){
+    location.href='/videos.html'
 }
 
 // Redirecionamento home
@@ -75,6 +96,7 @@ buttonHome[0].onclick = function(){
 buttonHome[1].onclick = function(){
     location.href='/home.html'
 }
+
 
 // Redirecionamento fav
 
