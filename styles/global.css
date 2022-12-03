@@ -8,16 +8,43 @@
 
 :root {
     --body-bg-color: #dce4e3;
-    --green: #18c29c;
-    --light-green: #8ed7c6;
+    --pasta: #f6f7daad;
     --medium-grey: #dce4e3de;
     --light-grey: #dce4e3;
-    --text-color: #084236;
   }
 
   body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 100vw;
   }
 
+header{
+  height: 80px;
+  width: 100%;
+  background-color: var(--pasta);
+  padding-left: 1rem;
+  padding-right: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.total{
+  display:flex;
+  flex-direction: row;
+}
+
+.logo{
+  height: 75px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fone{
+  font-weight: bold;
+  font-size: 2.5rem;
+}

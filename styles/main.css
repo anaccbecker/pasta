@@ -1,6 +1,5 @@
 .main{
-    background-image: url("../public/wall.jpg");
-    height: 100vh; /* You must set a specified height */
+    background-image: url("../public/pizza.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -11,7 +10,7 @@
 }
 
 #quote{
-    background-color: var(--light-green);
+    background-color: var(--pasta);
     width: 90%;
     padding: 10px;
     border-radius: 12px;
@@ -20,19 +19,3 @@
 #pesquisa-google{
     width: 90%;
 }
-
-/* Barra de pesquisa */
-.gsc-control-cse-pt-BR{
-    background-color: var(--light-green) !important;
-    width: 700px !important;
-    border-color: var(--light-green) !important;
-    border-radius: 12px;
-}
-
-/* Ícone da lupa */
-.gsc-search-button-v2{
-    background-color: var(--green) !important;
-    border-color: transparent !important;
-    border-radius: 6px !important;
-}
-
